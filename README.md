@@ -14,4 +14,4 @@ The user can also enter `!` or send a SIGINT `CTRL-C` to display the history, or
 
 All other commands enetered fork a child process and run `execvp()`.
 
-The parent process will wait for the child to finish. The user can also enter the symbol `&` as their last token to have the shell loop back to read another command immediately.
+The parent process will wait for the child to finish. The user can also enter the symbol `&` as their last token to have the shell loop back to read another command immediately, without waiting for the child process.
